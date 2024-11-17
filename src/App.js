@@ -1,5 +1,7 @@
 import './App.css';
-import CommentsList from './components/CommentsList';
+import TemperatureConverter from './lesson3/TemperatureConverter';
+import TodoList from './lesson3/TodoList';
+// import CommentsList from './components/CommentsList';
 // import Message from './components/Message';
 import './styles/Message.css';
 
@@ -9,7 +11,9 @@ function App() {
       {/* <Message name='World' />
       <Message name='Marina' />
       <Message name='Maxim' /> */}
-      <CommentsList />
+      {/* <CommentsList /> */}
+      <TemperatureConverter />
+      <TodoList />
     </div>
   );
 }
